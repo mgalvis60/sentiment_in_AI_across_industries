@@ -1,0 +1,22 @@
+# macOS
+.DS_Store
+
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+
+# Data and model artifacts are not versioned (see data/README.md)
+data/*
+!data/README.md
+*.parquet
+*.pkl
+*.safetensors
+*.bin
+interactive_plots_part1/
+
+# Files written by the notebooks into the working directory
+notebooks/lda_coherence_scores.png
